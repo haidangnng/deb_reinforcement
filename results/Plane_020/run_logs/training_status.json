@@ -1,0 +1,56 @@
+{
+    "MoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 58790,
+                "file_path": "results/Plane_020/MoveToGoal/MoveToGoal-58790.onnx",
+                "reward": 37.5,
+                "creation_time": 1716320496.4929988,
+                "auxillary_file_paths": [
+                    "results/Plane_020/MoveToGoal/MoveToGoal-58790.pt"
+                ]
+            },
+            {
+                "steps": 499960,
+                "file_path": "results/Plane_020/MoveToGoal/MoveToGoal-499960.onnx",
+                "reward": 36.891891891891895,
+                "creation_time": 1716321645.798442,
+                "auxillary_file_paths": [
+                    "results/Plane_020/MoveToGoal/MoveToGoal-499960.pt"
+                ]
+            },
+            {
+                "steps": 999965,
+                "file_path": "results/Plane_020/MoveToGoal/MoveToGoal-999965.onnx",
+                "reward": 40.9375,
+                "creation_time": 1716322378.680319,
+                "auxillary_file_paths": [
+                    "results/Plane_020/MoveToGoal/MoveToGoal-999965.pt"
+                ]
+            },
+            {
+                "steps": 1000093,
+                "file_path": "results/Plane_020/MoveToGoal/MoveToGoal-1000093.onnx",
+                "reward": 40.9375,
+                "creation_time": 1716322378.7313359,
+                "auxillary_file_paths": [
+                    "results/Plane_020/MoveToGoal/MoveToGoal-1000093.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000093,
+            "file_path": "results/Plane_020/MoveToGoal.onnx",
+            "reward": 40.9375,
+            "creation_time": 1716322378.7313359,
+            "auxillary_file_paths": [
+                "results/Plane_020/MoveToGoal/MoveToGoal-1000093.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.0.0",
+        "torch_version": "2.3.0"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1716230259",
+        "python_version": "3.10.12 (main, Jul  5 2023, 15:02:25) [Clang 14.0.6 ]",
+        "command_line_arguments": "/opt/anaconda3/envs/mlagents/bin/mlagents-learn Assets/Scripts/Plane.yaml --initialize-from=Plane_35 --run-id=Plane_36",
+        "mlagents_version": "1.0.0",
+        "mlagents_envs_version": "1.0.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.3.0",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1716230320"
+    },
+    "total": 60.78036283305846,
+    "count": 1,
+    "self": 0.011932792142033577,
+    "children": {
+        "run_training.setup": {
+            "total": 0.029098249971866608,
+            "count": 1,
+            "self": 0.029098249971866608
+        },
+        "TrainerController.start_learning": {
+            "total": 60.73933179094456,
+            "count": 1,
+            "self": 0.00017716595903038979,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 60.73886629100889,
+                    "count": 1,
+                    "self": 60.73886629100889
+                },
+                "TrainerController._save_models": {
+                    "total": 0.00028833397664129734,
+                    "count": 1,
+                    "self": 0.00028833397664129734
+                }
+            }
+        }
+    }
+}

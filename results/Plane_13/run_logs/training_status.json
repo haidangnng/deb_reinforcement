@@ -1,0 +1,65 @@
+{
+    "MoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 8499907,
+                "file_path": "results/Plane_13/MoveToGoal/MoveToGoal-8499907.onnx",
+                "reward": -2.0,
+                "creation_time": 1716195728.512579,
+                "auxillary_file_paths": [
+                    "results/Plane_13/MoveToGoal/MoveToGoal-8499907.pt"
+                ]
+            },
+            {
+                "steps": 8999893,
+                "file_path": "results/Plane_13/MoveToGoal/MoveToGoal-8999893.onnx",
+                "reward": -2.0,
+                "creation_time": 1716196641.767306,
+                "auxillary_file_paths": [
+                    "results/Plane_13/MoveToGoal/MoveToGoal-8999893.pt"
+                ]
+            },
+            {
+                "steps": 9499999,
+                "file_path": "results/Plane_13/MoveToGoal/MoveToGoal-9499999.onnx",
+                "reward": -2.0,
+                "creation_time": 1716197555.145039,
+                "auxillary_file_paths": [
+                    "results/Plane_13/MoveToGoal/MoveToGoal-9499999.pt"
+                ]
+            },
+            {
+                "steps": 9999899,
+                "file_path": "results/Plane_13/MoveToGoal/MoveToGoal-9999899.onnx",
+                "reward": -2.0,
+                "creation_time": 1716198468.1516092,
+                "auxillary_file_paths": [
+                    "results/Plane_13/MoveToGoal/MoveToGoal-9999899.pt"
+                ]
+            },
+            {
+                "steps": 10000027,
+                "file_path": "results/Plane_13/MoveToGoal/MoveToGoal-10000027.onnx",
+                "reward": -2.0,
+                "creation_time": 1716198468.1968691,
+                "auxillary_file_paths": [
+                    "results/Plane_13/MoveToGoal/MoveToGoal-10000027.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10000027,
+            "file_path": "results/Plane_13/MoveToGoal.onnx",
+            "reward": -2.0,
+            "creation_time": 1716198468.1968691,
+            "auxillary_file_paths": [
+                "results/Plane_13/MoveToGoal/MoveToGoal-10000027.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.0.0",
+        "torch_version": "2.3.0"
+    }
+}
